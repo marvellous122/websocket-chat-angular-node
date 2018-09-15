@@ -3,7 +3,7 @@ import { WebSocketSubject } from 'rxjs/webSocket';
 import { Message, Event } from '../model';
 import { Observable } from 'rxjs';
 
-const SERVER_URL = 'ws://192.168.3.187:8999';
+const SERVER_URL = 'ws://localhost:8999';
 
 @Injectable({
   providedIn: 'root'
